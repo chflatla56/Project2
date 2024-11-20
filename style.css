@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #869cd9;
+}
+canvas {
+  display: block;
+  margin: auto;
+}
+
+button {
+  font-family: 'Lacquer';
+  font-size: 20px;
+}
+
+#button1 {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#button2 {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#button3 {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Rampart One';
+  font-size: 75px;
+}
+
