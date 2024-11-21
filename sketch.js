@@ -28,7 +28,7 @@ let circleHeight = 0;
 let time = 10;
 //fish pics and info
 let fishes = [];
-let fishCSV = "IntroToCC_Fishes - Sheet1.csv";
+let fishCSV = "./IntroToCC_Fishes - Sheet1.csv";
 let fishInfo;
 let fishCollection = [];
 let fishCount = 0;
@@ -55,9 +55,9 @@ let font2;
 let font3;
     
 function preload() {
-  font1 = loadFont(".HanaleiFill-Regular.ttf");
-  font2 = loadFont(".RampartOne-Regular.ttf");
-  font3 = loadFont(".Lacquer-Regular.ttf");
+  font1 = loadFont("./HanaleiFill-Regular.ttf");
+  font2 = loadFont("./RampartOne-Regular.ttf");
+  font3 = loadFont("./Lacquer-Regular.ttf");
   
   hat1 = loadImage("./hats/baseballHat.png");
   hat2 = loadImage("./hats/bowlerHat.png");
@@ -65,7 +65,7 @@ function preload() {
   hat4 = loadImage("./hats/propellerHat.png");
     
   for (let i = 0; i < 20; i++) {
-    fishes[i] = loadImage(".fishes/fish_" + i + ".jpg"); 
+    fishes[i] = loadImage("./fishes/fish_" + i + ".jpg"); 
     fishCollection[i] = false;
   }
   
